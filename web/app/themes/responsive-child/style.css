@@ -1,0 +1,31 @@
+/*
+Theme Name:     Responsive Child
+Template:       responsive
+Description:    Child theme for the Responsive theme
+Author:         TheHyrox
+Version:        1.0
+*/
+
+.portfolio-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.portfolio-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
