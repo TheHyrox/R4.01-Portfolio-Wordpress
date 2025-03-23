@@ -16,16 +16,37 @@ Version:        1.0
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    margin-top: 20px;
 }
 
 .portfolio-item {
     border: 1px solid #ddd;
     padding: 10px;
-    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
 }
 
 .portfolio-thumbnail img {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+.homepage {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero {
+    background: #f5f5f5;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.top-projects {
+    margin-top: 40px;
 }
